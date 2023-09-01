@@ -1,31 +1,61 @@
 import React, { useState } from "react";
+import { PropTypes } from "prop-types";
 import "./Counter.css";
 
-const Counter = () => {
+export default function Counter() {
   const [counter, setCounter] = useState(0);
 
-  function incrementCounterFunction() {
-    setCounter(counter + 1);
-    console.log("Increment clicked");
+  function incrementCounterParentFunction(by) {
+    setCounter(counter + by);
   }
-  function decrementCounterFunction() {
-    setCounter(counter - 1);
-    console.log("Decrement clicked");
-    }
 
   return (
+    <>
+      <div className="mt-15"></div>
+      <CounterButton />
+      <CounterButton by={2} />
+      <CounterButton by={5} />
+      <span className="total-count">{counter}</span>
+
+    </>
+  );
+}
+// create a Counter component
+function CounterButton ({ by }) {
+  // create a state variable called "counter" and initialize it to zero
+  const [counter, setCounter] = useState(0);
+
+  // create a function to increment the counter
+  function incrementCounterFunction() {
+    setCounter(counter + by);
+  }
+
+  // create a function to decrement the counter
+  function decrementCounterFunction() {
+    setCounter(counter - by);
+  }
+
+  // render the Counter component
+  return (
     <div className="counter">
-      <span className="count">{counter}</span>
       <div>
         <button className="counter-btn" onClick={incrementCounterFunction}>
-          +1
+          +{by}
         </button>
         <button className="counter-btn" onClick={decrementCounterFunction}>
-            -1
+          -{by}
         </button>
       </div>
     </div>
   );
 };
+CounterButton.propTypes = {
+  by: PropTypes.number,
+};
 
-export default Counter;
+CounterButton.defaultProps = {
+  by: 1,
+};
+
+// export the Counter component
+export { CounterButton };

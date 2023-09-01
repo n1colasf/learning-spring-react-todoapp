@@ -1,19 +1,28 @@
 .counter-btn {
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    background: transparent;
-    color: #424242;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s ease-out;
-    margin-left: 10px;
-    margin-right: 10px;
-    }
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background: transparent;
+  color: #424242;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-out;
+  margin: 15px;
+}
 
-    .count {
-    font-size: 120px;
-    margin-top: 30px;
-    color: #424242;
-    }
+.count {
+  font-size: 120px;
+  margin-top: 30px;
+  color: #424242;
+}
+
+.total-count {
+  font-size: 140px;
+  margin-top: 30px;
+  color: #424242;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
