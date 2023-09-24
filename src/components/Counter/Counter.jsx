@@ -25,4 +25,3 @@ export default function Counter() {
     </>
   );
 }
-// create a Counter componen
