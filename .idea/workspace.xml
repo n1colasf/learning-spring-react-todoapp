@@ -4,11 +4,12 @@
     <list default="true" id="0257b2ce-ab90-423d-b03f-376a9700edca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter/Counter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/Counter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo/HeaderComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo/HeaderComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo/ListTodoComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo/ListTodoComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo/LoginComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo/LoginComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo/TodoApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo/TodoApp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo/WelcomeComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo/WelcomeComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo/security/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo/security/AuthContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,25 +22,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2VqbsfR4qtb7cHzwSLS3mZhUnQ7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/Nicolas/Documents/Repositorios/Formacion/learning-spring-react-todoapp",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Nicolas/Documents/Repositorios/Formacion/learning-spring-react-todoapp&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695566766144</updated>
       <workItem from="1695566767630" duration="10000" />
+      <workItem from="1695683242760" duration="8000" />
     </task>
     <servers />
   </component>

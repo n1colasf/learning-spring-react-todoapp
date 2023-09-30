@@ -12,6 +12,7 @@ import ErrorComponent from "./ErrorComponent";
 import AuthProvider, { useAuth } from "./security/AuthContext";
 
 import "./TodoApp.css";
+import TodoComponennt from "./TodoComponent";
 
 function AuthenticatedRoute({ children }) {
   const authContext = useAuth();
@@ -40,10 +41,18 @@ export default function TodoApp() {
               }
             />
             <Route
-              path="/todos"
+              path="/todo"
               element={
                 <AuthenticatedRoute>
                   <ListTodoComponent />
+                </AuthenticatedRoute>
+              }
+            />
+            <Route
+              path="/todo/:id"
+              element={
+                <AuthenticatedRoute>
+                  <TodoComponennt />
                 </AuthenticatedRoute>
               }
             />

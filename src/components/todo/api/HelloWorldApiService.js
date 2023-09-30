@@ -13,6 +13,13 @@ export function retrieveHelloWorldBean() {
 }
 
 export function retrieveHelloWorldPathName(username) {
-  return apiClient.get(`/hello-world/path-variable/${username}`
-  );
+  return apiClient.get(`/hello-world/path-variable/${username}`);
+}
+
+export function executeBasicAuthenticationService(token) {
+  apiClient.get("/basicauth");
+}
+
+export function executeJWTAuthenticationService(username, password) {
+  apiClient.post("/authenticate", {username, password});
 }

@@ -34,7 +34,7 @@ function HeaderComponent() {
                   </li>
                   <li className="nav-item fs-5">
                     {isAuthenticated && (
-                      <Link className="nav-link" to="/todos">
+                      <Link className="nav-link" to="/todo">
                         Todos
                       </Link>
                     )}
